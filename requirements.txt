@@ -1,0 +1,14 @@
+openai  #OpenAI API client for GPT models
+langchain # Framework for building LLM-powered apps
+langchain-openai # OpenAI integration for LangChain
+langchain_pinecone # Pinecone vector store integration for LangChain
+langchain
+docarray # Data structure for handling multi-modal data
+pydantic==1.10.8 # Data validation and settings management
+yt_dlp # YouTube video downloader
+python-dotenv # Environment variable management
+tiktoken # Tokenizer for OpenAI models
+pinecone-client # Vector database client
+scikit-learn # Machine learning library
+ruff # Python linter
+git+https://github.com/openai/whisper.git # Whisper model for transcription
