@@ -23,10 +23,3 @@ Question: {question}
 """
 
 prompt = ChatPromptTemplate.from_template(template)
-chain = prompt | model | parser
-
-print (chain.invoke({
-  "context": transcription_content,
-  "question": "What is Clio?"
-}))
-
