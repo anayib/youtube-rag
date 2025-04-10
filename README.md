@@ -105,7 +105,7 @@ git commit -m "fix(api): handle null response in user endpoint
 
 Closes #456"
 ```
-3. Breaking Change (Major Version Bump)
+#### 3. Breaking Change (Major Version Bump)
 ```bash
 
 git commit -m "feat(db): migrate to PostgreSQL
